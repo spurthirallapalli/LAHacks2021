@@ -1,1 +1,6 @@
 testing
+
+to figure out how to make chrome extension pop up only when clicked - jp
+extract data in our context - chloe 
+
+
