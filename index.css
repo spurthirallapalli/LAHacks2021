@@ -21,6 +21,57 @@ body {
     color: #B00808; 
 }
 
+.vbutton {
+  background-color: rgb(104, 208, 104);
+  border: none;
+  color: white;
+  text-align: center;
+  font-family: 'Karla', sans-serif;
+  position: absolute;
+  right: 80px;
+  top: 30px;
+  padding: 5px 12px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.xbutton {
+    background-color: rgb(233, 160, 172);
+    border: none;
+    color: white;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    position: absolute;
+    right: 16px;
+    top: 30px;
+    padding: 5px 12px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .vbutton:hover {
+    background-color: rgb(89, 174, 89);
+  }
+
+  .xbutton:hover {
+    background-color: rgb(216, 132, 160)
+  }
+
+.button {
+    border: none;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: #E49A43;
+    width: 80px;
+    height: 28px;
+  }
+
 .link{
     font-size: 20px;
 }
