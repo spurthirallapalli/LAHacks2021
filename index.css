@@ -7,13 +7,32 @@ body {
     font-family: 'Karla', sans-serif;
 }
 
+.container {
+  display: flex; 
+  flex-direction: row;
+}
+
+.link-item {
+  /* flex: 1;  */
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  text-overflow: ellipsis;
+}
+
+.button-items {
+  width: 25%; 
+}
+
 .tracker {
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    text-overflow: ellipsis;
 }
 
 .current-link{
@@ -28,7 +47,7 @@ body {
   text-align: center;
   font-family: 'Karla', sans-serif;
   position: absolute;
-  right: 80px;
+  right: 60px;
   top: 30px;
   padding: 5px 12px;
   font-size: 16px;
@@ -36,7 +55,7 @@ body {
 }
 
 .xbutton {
-    background-color: rgb(233, 160, 172);
+    background-color: rgb(254, 173, 201);
     border: none;
     color: white;
     text-align: center;
@@ -57,7 +76,7 @@ body {
     background-color: rgb(216, 132, 160)
   }
 
-.button {
+.lbutton {
     border: none;
     color: white;
     /* padding: 15px 32px; */
@@ -68,10 +87,14 @@ body {
     display:block;
     cursor: pointer;
     background-color: #E49A43;
-    width: 80px;
+    width: 83px;
     height: 28px;
+    position: absolute;
+    right: 16px;
+    top: 70px;
   }
 
 .link{
     font-size: 20px;
+    text-overflow: ellipsis;
 }
