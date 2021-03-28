@@ -1,4 +1,3 @@
-
 document.getElementById("yes").addEventListener("click", myFunction);
 
 function myFunction() {
@@ -12,4 +11,7 @@ function myFunctionTwo() {
     console.log("Button no pushed!")
 
 }
+
+
+
 
