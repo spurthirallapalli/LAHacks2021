@@ -11,4 +11,5 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
   //  document.write('</ul>');
    x= document.getElementsByClassName("link")[0];
    x.innerHTML = url; 
+   
   });
