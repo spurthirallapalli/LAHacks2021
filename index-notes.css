@@ -117,7 +117,7 @@ body {
     background-color: rgb(89, 174, 89);
   }
 
-  .openbutton {
+  #openbutton {
     border: none;
     color: white;
     text-align: center;
@@ -133,7 +133,7 @@ body {
     margin-bottom: 10px; 
   }
 
-  .openbutton:hover {
+  #openbutton:hover {
     background-color: rgb(89, 174, 89);
   }
 
@@ -174,7 +174,7 @@ body {
     background-color: rgb(216, 132, 160)
   }
 
-  .deletebutton {
+  #deletebutton {
     border: none;
     color: white;
     text-align: center;
@@ -191,7 +191,7 @@ body {
     text-decoration: none;
   }
 
-  .deletebutton:hover {
+  #deletebutton:hover {
     background-color: rgb(216, 132, 160)
   }
 
