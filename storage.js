@@ -1,14 +1,18 @@
-var keyVar = "";
-chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
-    keyVar = tabs[0].title; 
-  });
-  
-  document.getElementById("lbutton").addEventListener("click", function ()
-    {
-        var user = document.getElementById("user").value ;
-        localStorage.setItem('keyVar', 'user');
-        const key = localStorage.getItem('keyVar');
-
-alert('dobby');
+var el = document.getElementById('lbutton');
+if(el){
+    
+    var myKey; 
+    chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
+        myKey = tabs[0].url; 
+        
     });
-  
+    
+    document.getElementById("lbutton").addEventListener("click", function ()
+        {
+            var user = document.getElementById("notesBody").value;
+            localStorage.setItem(myKey, user);
+            alert("note saved");
+            console.log("note saved");
+        } , true);
+}
+ 

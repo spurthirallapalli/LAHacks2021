@@ -5,19 +5,21 @@
 </head>
 <body>
     <div class="tracker">
-        <div class="current-link">current site:&nbsp</div> <div class="link">ccle.ucla.edu.edu.edu.edu.edu.edu.edu.edu</div>
+        <div class="current-link">current site:&nbsp</div> <div class="link"></div>
     </div>
     <div class="notesheading"> Notes: </div>
     <div class="notessection">
         <textarea id="notesBody" style="min-height:290px;min-width:405px;"></textarea>
     </div>
     <div>
-        <button class="lbutton">Save</button>
+        <button id="lbutton">save</button>
         <button class="morenotes"><a class="fix" href="popup.html">delete note</a></button>
+        <button class="listofnotes"><a class="fix" href="list.html">other notes</a></button>
         <p><br></p>
         <!-- <p><br></p> -->
     </div>
+    <script src="storage.js"></script>
 </body>
-<script src="popup.js"></script>
+<!-- <script src="popup.js"></script> -->
 <script src="tabs.js"></script>
 </html>
