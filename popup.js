@@ -1,11 +1,7 @@
-var el = document.getElementById("yes");
-if(el){
-  el.addEventListener("click", myFunction);
+document.getElementById("no").addEventListener("click", myFunctionTwo);
 
-function myFunction() {
-    console.log("Button yes pushed!")
-
-}
+function myFunctionTwo() {
+    window.close();
 }
 
 
