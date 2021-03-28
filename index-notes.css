@@ -31,7 +31,7 @@ body {
     height: auto;
 }
 
-.lbutton {
+#lbutton {
     border: none;
     color: white;
     text-align: center;
