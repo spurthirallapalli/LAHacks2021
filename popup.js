@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var listOfTabs = []; 
 
 chrome.tabs.query({windowId: chrome.windows.WINDOW_ID_CURRENT}, (tabs) => {
@@ -11,5 +12,22 @@ chrome.tabs.query({windowId: chrome.windows.WINDOW_ID_CURRENT}, (tabs) => {
     // chrome.tabs.update( tabs[0].id, { url: "http://stackoverflow.com//" } ); 
     // document.write(`<li>${listOfTabs}</li>`);
 });
+=======
+document.getElementById("yes").addEventListener("click", myFunction);
+
+function myFunction() {
+    console.log("Button yes pushed!")
+
+}
+
+document.getElementById("no").addEventListener("click", myFunctionTwo);
+
+function myFunctionTwo() {
+    console.log("Button no pushed!")
+
+}
+
+
+>>>>>>> origin/chloesBranch
 
 
