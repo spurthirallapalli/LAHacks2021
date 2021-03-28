@@ -1,10 +1,8 @@
 var el = document.getElementById('lbutton');
 if(el){
-    
     var myKey; 
     chrome.tabs.query({active: true, lastFocusedWindow: true}, tabs => {
         myKey = tabs[0].url; 
-        
     });
     
     document.getElementById("lbutton").addEventListener("click", function ()
@@ -17,4 +15,3 @@ if(el){
     
     
 }
- 
