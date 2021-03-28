@@ -8,8 +8,7 @@ function myFunction() {
 document.getElementById("no").addEventListener("click", myFunctionTwo);
 
 function myFunctionTwo() {
-    console.log("Button no pushed!")
-
+    window.close();
 }
 
 

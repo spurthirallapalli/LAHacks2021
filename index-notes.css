@@ -46,6 +46,26 @@ body {
     margin-top: 10px;
   }
 
+  .lbutton:hover {
+    background-color: rgb(89, 174, 89);
+  }
+
+  /* .morenotes {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    cursor: pointer;
+    background-color: rgb(254, 173, 201);
+    width: 150px;
+    height: 28px;
+    display: table-cell;
+    bottom: 15px;
+    left: 33%; 
+  } */
+
   .morenotes {
     border: none;
     color: white;
@@ -53,15 +73,18 @@ body {
     font-size: 16px;
     font-family: 'Karla', sans-serif;
     margin:0 auto;
-    /* display:block; */
+    display:block;
     cursor: pointer;
-    background-color: #4081e3;
+    background-color: rgb(254, 173, 201);
     width: 150px;
     height: 28px;
-    position: absolute;
-    display: table-cell;
-    bottom: 15px;
-    left: 33%; 
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    text-decoration: none;
+  }
+
+  .morenotes:hover {
+    background-color: rgb(216, 132, 160)
   }
 
 .notesheading {
@@ -74,4 +97,9 @@ body {
 .notesbody {
     margin-left: 20px; 
     margin-right: 20px; 
+}
+
+.fix {
+    text-decoration: none;
+    color: white; 
 }
