@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300&display=swap');
+
+body {
+    margin: 5px;
+    width: 411px;
+    height: 479px;
+    font-family: 'Karla', sans-serif;
+    /* background-color: lightyellow; */
+    background-color: rgb(247, 247, 247);
+    /* background-color: rgb(211, 181, 170); */
+}
+
+.c {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+.tracker {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.current-link{
+  font-size: 20px;
+  color: #B00808; 
+}
+
+.current-link-list{
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display:inline-block;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 21%;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 15px;
+    color: #B00808; 
+}
+
+
+.link{
+    font-size: 20px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display:inline-block;
+    height: auto;
+}
+
+.group{
+    font-size: 15px;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    display:inline-block;
+    height: auto;
+    margin-top: 15px;
+    margin-right: 15px;
+    width: 55%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.group-current{
+  font-size: 15px;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display:inline-block;
+  height: auto;
+  margin-top: 15px;
+  margin-right: 15px;
+  width: 52%;
+  overflow: hidden;
+  white-space: nowrap;
+} 
+
+.openbutton-current {
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Karla', sans-serif;
+  margin:0 auto;
+  display:block;
+  cursor: pointer;
+  background-color: #6ed08d;
+  width: 80px;
+  height: 28px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+}
+
+.openbutton-current:hover {
+  background-color: rgb(89, 174, 89);
+}
+
+#lbutton {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: #6ed08d;
+    width: 83px;
+    height: 28px;
+    margin-top: 10px;
+  }
+
+  .lbutton:hover {
+    background-color: rgb(89, 174, 89);
+  }
+
+  #openbutton {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: #6ed08d;
+    width: 80px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+  }
+
+  #openbutton:hover {
+    background-color: rgb(89, 174, 89);
+  }
+
+  /* .morenotes {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    cursor: pointer;
+    background-color: rgb(254, 173, 201);
+    width: 150px;
+    height: 28px;
+    display: table-cell;
+    bottom: 15px;
+    left: 33%; 
+  } */
+
+  .morenotes {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: rgb(254, 173, 201);
+    width: 150px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-decoration: none;
+  }
+
+  .morenotes:hover {
+    background-color: rgb(216, 132, 160)
+  }
+
+  #deletebutton {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: rgb(254, 173, 201);
+    width: 80px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+    text-decoration: none;
+  }
+
+  #deletebutton:hover {
+    background-color: rgb(216, 132, 160)
+  }
+
+
+  .listofnotes {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: rgb(141, 193, 226);
+    width: 150px;
+    height: 28px;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+    text-decoration: none;
+  }
+
+  .listofnotes:hover {
+    background-color: rgb(109, 174, 214)
+  }
+
+.notesheading {
+    font-size: 20px;
+    margin-top: 20px;
+    vertical-align: left;
+    margin-bottom: 10px;
+}
+
+.notesbody {
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+.fix {
+    text-decoration: none;
+    color: white; 
+}
