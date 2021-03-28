@@ -14,5 +14,7 @@ if(el){
             alert("note saved");
             console.log("note saved");
         } , true);
+    
+    
 }
  
