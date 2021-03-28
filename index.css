@@ -3,42 +3,19 @@
 body {
     margin: 5px;
     width: 411px;
-    height: 117px;
+    height: 479px;
     font-family: 'Karla', sans-serif;
     /* background-color: lightyellow; */
     background-color: rgb(247, 247, 247);
     /* background-color: rgb(211, 181, 170); */
 }
 
-.container {
-  display: flex; 
-  flex-direction: row;
-  text-overflow: ellipsis;
-  height: auto;
-}
-
-.link-item {
-  /* flex: 1;  */
-  width: 75%;
-  display: flex;
-  flex-wrap: wrap;
-  text-overflow: ellipsis;
-  display:inline-block;
-  height: auto;
-}
-
-.button-items {
-  width: 25%; 
-}
-
 .tracker {
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    display: flex;
-    flex-wrap: wrap;
-    text-overflow: ellipsis;
+    text-align: center;
 }
 
 .current-link{
@@ -46,65 +23,55 @@ body {
     color: #B00808; 
 }
 
-.vbutton {
-  background-color: rgb(104, 208, 104);
-  border: none;
-  color: white;
-  text-align: center;
-  font-family: 'Karla', sans-serif;
-  position: absolute;
-  right: 60px;
-  top: 30px;
-  padding: 5px 12px;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.xbutton {
-    background-color: rgb(254, 173, 201);
-    border: none;
-    color: white;
-    text-align: center;
-    font-family: 'Karla', sans-serif;
-    position: absolute;
-    right: 16px;
-    top: 30px;
-    padding: 5px 12px;
-    font-size: 16px;
-    cursor: pointer;
-  }
-
-  .vbutton:hover {
-    background-color: rgb(89, 174, 89);
-  }
-
-  .xbutton:hover {
-    background-color: rgb(216, 132, 160)
-  }
-
-.lbutton {
-    border: none;
-    color: white;
-    /* padding: 15px 32px; */
-    text-align: center;
-    font-size: 16px;
-    font-family: 'Karla', sans-serif;
-    margin:0 auto;
-    display:block;
-    cursor: pointer;
-    background-color: #E49A43;
-    width: 83px;
-    height: 28px;
-    position: absolute;
-    right: 16px;
-    top: 70px;
-  }
-
 .link{
     font-size: 20px;
     text-overflow: ellipsis;
     word-break: break-all;
     display:inline-block;
     height: auto;
-    /* color: white;  */
+}
+
+.lbutton {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    display:block;
+    cursor: pointer;
+    background-color: #6ed08d;
+    width: 83px;
+    height: 28px;
+    margin-top: 10px;
+  }
+
+  .morenotes {
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    margin:0 auto;
+    /* display:block; */
+    cursor: pointer;
+    background-color: #4081e3;
+    width: 150px;
+    height: 28px;
+    position: absolute;
+    display: table-cell;
+    bottom: 15px;
+    left: 33%; 
+  }
+
+.notesheading {
+    font-size: 20px;
+    margin-top: 20px;
+    vertical-align: left;
+    margin-bottom: 10px;
+}
+
+.notesbody {
+    margin-left: 20px; 
+    margin-right: 20px; 
 }
