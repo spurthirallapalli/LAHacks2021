@@ -5,8 +5,6 @@ chrome.storage.sync.set({'string': notesBody}, function() {
   });
 
 
-<<<<<<< HEAD
-=======
 // chrome.tabs.getCurrent(function(tab){
 //     alert(tab.url);
 // });
@@ -22,4 +20,3 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, function(tabs) {
 // chrome.runtime.sendMessage({ text: "what is my tab_id?" }, tabId => {
 //     console.log('My tabId is', tabId);
 //  });
->>>>>>> origin/chloesBranch

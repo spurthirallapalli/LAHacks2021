@@ -66,20 +66,9 @@ body {
 
 .notesheading {
     font-size: 20px;
-<<<<<<< HEAD
-    margin-top: 20px;
-    vertical-align: left;
-    margin-bottom: 10px;
-}
-
-.notesbody {
-    margin-left: 20px; 
-    margin-right: 20px; 
-=======
     text-overflow: ellipsis;
     word-break: break-all;
     display:inline-block;
     height: auto;
     /* color: white;  */
->>>>>>> origin/chloesBranch
 }
